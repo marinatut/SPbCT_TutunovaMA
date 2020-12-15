@@ -17,7 +17,7 @@ namespace Massive {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
+	/// Сводка для MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -26,13 +26,13 @@ namespace Massive {
 		{
 			InitializeComponent();
 			//
-			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
+			//TODO: добавьте код конструктора
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
+		/// Освободить все используемые ресурсы.
 		/// </summary>
 		~MyForm()
 		{
@@ -51,14 +51,14 @@ namespace Massive {
 
 	private:
 		/// <summary>
-		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
+		/// Обязательная переменная конструктора.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
-		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
+		/// Требуемый метод для поддержки конструктора — не изменяйте 
+		/// содержимое этого метода с помощью редактора кода.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -91,7 +91,7 @@ namespace Massive {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(98, 23);
 			this->button1->TabIndex = 2;
-			this->button1->Text = L"ГЏГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ ГІГј";
+			this->button1->Text = L"Преобразовать";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -102,7 +102,7 @@ namespace Massive {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(99, 13);
 			this->label1->TabIndex = 3;
-			this->label1->Text = L"Г€Г±ГµГ®Г¤Г­Г»Г© Г¬Г Г±Г±ГЁГў";
+			this->label1->Text = L"Исходный массив";
 			// 
 			// label2
 			// 
@@ -111,7 +111,7 @@ namespace Massive {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(142, 13);
 			this->label2->TabIndex = 4;
-			this->label2->Text = L"ГЏГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­Г­Г»Г© Г¬Г Г±Г±ГЁГў";
+			this->label2->Text = L"Преобразованный массив";
 			// 
 			// MyForm
 			// 
