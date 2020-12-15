@@ -1,0 +1,3 @@
+C:\Users\Neuromancer\source\repos\Labr14\Labr14\Debug\Labr14.vcxprojAssemblyReference.cache
+C:\Users\Neuromancer\source\repos\Labr14\Labr14\Debug\Labr14.MyForm.resources
+C:\Users\Neuromancer\source\repos\Labr14\Labr14\Debug\Labr14.vcxproj.GenerateResource.cache
