@@ -1,0 +1,3 @@
+D:\МаринаEducationalPractice\EducationalPractice\x64\Debug\EducationalPractice.vcxprojAssemblyReference.cache
+D:\МаринаEducationalPractice\EducationalPractice\x64\Debug\EducationalPractice.MyForm.resources
+D:\МаринаEducationalPractice\EducationalPractice\x64\Debug\EducationalPractice.vcxproj.GenerateResource.cache
